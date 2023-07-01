@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(../pics/bg_image.png);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+}
+
+.phone-text {
+    margin-right: 180px;
+
+}
+
+.phone-pic {
+    margin-right: 20px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 206px;
+    align-items: center;
+}
+
+.main-title {
+    color: #FFF;
+    font-size: 79px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-subtitle {
+    color: #FFF;
+    font-size: 27px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.main-button {
+    margin-top: 32px;
+    width: 200px;
+    height: 70px;
+    background-color: #FFF;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.about-me-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 725px; */
+    padding-bottom: 118px;
+}
+
+.section-title-block {
+    margin-top: 72px;
+    color: #000;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.underline-black {
+    width: 110px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #000;
+    margin-top: 15px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1380px;
+    margin-top: 90px;
+    gap: 97px;
+
+}
+
+.text {
+
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 97px; */
+    gap: 40px;
+}
+
+.img {
+    width: 310px;
+    height: 381.234px;
+    flex-shrink: 0;
+}
+
+.skills {
+    width: 100%;
+    /* height: 725px; */
+    background-color: #1E2E3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 192px;
+
+}
+
+.second-title-block {
+    color: #ffffff;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.underline-white {
+    width: 110px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #ffffff;
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 504px;
+    background-color: #ffffff;
+}
+
+.text-footer {
+    color: #000;
+    font-size: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-footer-small {
+    color: #000;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.ips-logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: 81px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 27px;
+    gap: 20px;
+}
+
+.skill-pic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 116px;
+    gap: 142px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.po-centru {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+@media screen and (max-width: 1420px) {
+    .about-me-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .phone-text {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skill-pic {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .personal-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-text-section {
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
